@@ -10,13 +10,13 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "The Middleman" %></title>
 
-    <%= stylesheet_link_tag "normalize", "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css", "bootstrap-touch-carousel.css", "all" %>
+    <%= stylesheet_link_tag "normalize", "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css", "slick.css", "all" %>
 
   </head>
 
   <body class="<%= page_classes %>">
     <%= yield %>
 
-    <%= javascript_include_tag  "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js", "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js", "bootstrap-touch-carousel.js", "all" %>
+    <%= javascript_include_tag  "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js", "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js", "slick.min.js", "all" %>
   </body>
 </html>

@@ -1,5 +1,19 @@
 //= require_tree .
 
-$('#myCarousel').on('slide.bs.carousel', function (e) {
-  $('body').css('background-color', $(e.relatedTarget).attr('data-background'));
-})
+$('div.slides').slick({
+  swipe: true,
+  slidesToShow: 1,
+  arrows: false,
+  slidesToScroll: 1,
+  infinite: true
+});
+
+$('div.slides').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+  var selector = ($('*[data-slick-index="'+ nextSlide +'"]'));
+
+  $('body').css('background-color', $(selector).attr('data-background'));
+
+  $('.logo a img').fadeOut('fast', function(){
+    $('.logo a img').attr('src', "images/titles/" + nextSlide + ".png").fadeIn('fast');
+  });
+});
