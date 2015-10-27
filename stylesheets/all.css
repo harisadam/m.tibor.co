@@ -64,7 +64,7 @@ body {
   font-size: 12px;
   text-align: left;
   text-transform: uppercase;
-  margin: 75px 0 5px 0; }
+  margin: 55px 0 5px 0; }
 /* line 89, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item h3 {
   font-family: hvoguebold;
@@ -136,3 +136,66 @@ body {
 /* line 173, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .stamp {
   color: #41ceef; }
+/* line 177, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.item .profile-pic {
+  width: 13%;
+  margin-right: 2%;
+  float: left;
+  margin-top: 55px; }
+  /* line 183, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+  .item .profile-pic img {
+    width: 100%; }
+/* line 188, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.item .about {
+  width: 83%;
+  float: left;
+  margin-top: 55px; }
+/* line 194, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.item .about p {
+  font-size: 15px; }
+/* line 198, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.item .about p.hello {
+  margin: 15px 0;
+  font-size: 15px;
+  font-family: 'hvoguebold'; }
+/* line 204, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.item .end-slide .social,
+.item .about .social {
+  float: left;
+  display: block;
+  margin: -4px 0 0 0;
+  background-size: cover !important; }
+/* line 215, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.item .end-slide .social.facebook,
+.item .about .social.facebook {
+  width: 32px;
+  height: 35px;
+  background: url(../../images/social_04.jpg) no-repeat; }
+/* line 221, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.item .end-slide .social.behance,
+.item .about .social.behance {
+  width: 55px;
+  height: 35px;
+  background: url(../../images/social_01.jpg) no-repeat; }
+/* line 227, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.item .end-slide .social.dribbble,
+.item .about .social.dribbble {
+  width: 42px;
+  height: 35px;
+  background: url(../../images/social_02.jpg) no-repeat; }
+/* line 233, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.item .end-slide .social.linkedin,
+.item .about .social.linkedin {
+  width: 43px;
+  height: 35px;
+  background: url(../../images/social_03.jpg) no-repeat; }
+/* line 239, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.item .end-slide .social.instagram,
+.item .about .social.instagram {
+  width: 53px;
+  height: 35px;
+  background: url(../../images/social_05.jpg) no-repeat; }
+/* line 246, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.item .end-slide {
+  width: 226px;
+  margin: 50% auto 0 auto; }
