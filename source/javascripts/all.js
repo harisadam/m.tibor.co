@@ -18,3 +18,8 @@ $('div.slides').on('beforeChange', function(event, slick, currentSlide, nextSlid
     $('.logo a img').attr('src', "images/titles/" + nextSlide + ".png").fadeIn('fast');
   });
 });
+
+$('div.slides').on('swipe', function(event, slick, direction){
+  console.log('edge was hit')
+  console.log(direction)
+});
