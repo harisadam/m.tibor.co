@@ -83,7 +83,7 @@ body {
     font-size:12px;
     text-align:left;
     text-transform:uppercase;
-    margin:75px 0 5px 0;
+    margin:55px 0 5px 0;
   }
 
   h3{
@@ -172,5 +172,74 @@ body {
 
   .stamp{
     color:#41ceef;
+  }
+
+  .profile-pic{
+    width:13%;
+    margin-right:2%;
+    float: left;
+    margin-top: 55px;
+
+    img{
+      width:100%;
+    }
+  }
+
+  .about{
+    width:83%;
+    float: left;
+    margin-top: 55px;
+  }
+
+  .about p{
+    font-size:15px;
+  }
+
+  .about p.hello{
+    margin:15px 0;
+    font-size:15px;
+    font-family:'hvoguebold';
+  }
+
+  .end-slide .social,
+  .about .social{
+    float:left;
+    display:block;
+    margin: -4px 0 0 0;
+    background-size:cover!important;
+  }
+
+
+  .end-slide,
+  .about{
+    .social.facebook{
+      width:32px;
+      height:35px;
+      background:url(../../images/social_04.jpg) no-repeat;
+    }
+
+    .social.behance{
+      width:55px;
+      height:35px;
+      background:url(../../images/social_01.jpg) no-repeat;
+    }
+
+    .social.dribbble{
+      width:42px;
+      height:35px;
+      background:url(../../images/social_02.jpg) no-repeat;
+    }
+
+    .social.linkedin{
+      width:43px;
+      height:35px;
+      background:url(../../images/social_03.jpg) no-repeat;
+    }
+
+    .social.instagram{
+      width:53px;
+      height:35px;
+      background:url(../../images/social_05.jpg) no-repeat;
+    }
   }
 }
