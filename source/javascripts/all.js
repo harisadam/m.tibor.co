@@ -5,7 +5,8 @@ $('div.slides').slick({
   slidesToShow: 1,
   arrows: false,
   slidesToScroll: 1,
-  infinite: true
+  infinite: true,
+  fade: true
 });
 
 $('div.slides').on('beforeChange', function(event, slick, currentSlide, nextSlide){
