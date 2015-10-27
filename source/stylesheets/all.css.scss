@@ -248,3 +248,20 @@ body {
     margin: 50% auto 0 auto;
   }
 }
+
+
+.animated {
+  transition: all .35s;
+}
+
+.move-to-right {
+  transform: translateX(500px)
+}
+
+.move-to-left {
+  transform: translateX(-500px)
+}
+
+.move-to-default {
+  transform: translateX(0) !important;
+}
