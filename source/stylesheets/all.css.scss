@@ -74,7 +74,21 @@ body {
 .item{
   .image{
     img {
+      width: 100%;
+    }
+  }
+
+  .image-big{
+    img{
+      width: 75%;
+      margin: 0 auto;
+    }
+  }
+
+  .image-big2{
+    img {
       width: 85%;
+      margin: 0 auto;
     }
   }
 
@@ -83,7 +97,7 @@ body {
     font-size:12px;
     text-align:left;
     text-transform:uppercase;
-    margin:55px 0 5px 0;
+    margin:65px 0 5px 0;
   }
 
   h3{
@@ -99,7 +113,7 @@ body {
   h3 span{
     font-family:hvoguenormal;
     font-weight:normal;
-    font-size:13px;
+    font-size:11px;
     text-align:left;
     text-transform:uppercase;
     margin-bottom:9px;
@@ -107,14 +121,22 @@ body {
 
   p{
     font-family:hvoguenormal;
-    font-size:11px;
+    font-size:10px;
     line-height:12px;
     text-align:left;
+    margin-top: 10px;
+  }
+
+  p.open{
+    line-height: 17px;
   }
 
   p.note{
     position: absolute;
     bottom: 1%;
+    font-size: 9px;
+    font-style: italic;
+    margin: 0!important
   }
 
   .more{
@@ -178,7 +200,7 @@ body {
     width:13%;
     margin-right:2%;
     float: left;
-    margin-top: 55px;
+    margin-top: 65px;
 
     img{
       width:100%;
@@ -188,11 +210,12 @@ body {
   .about{
     width:83%;
     float: left;
-    margin-top: 55px;
+    margin-top: 65px;
   }
 
   .about p{
-    font-size:15px;
+    font-size:13px;
+    line-height: 14px;
   }
 
   .about p.hello{
@@ -201,6 +224,7 @@ body {
     font-family:'hvoguebold';
   }
 
+  .social-main .social,
   .end-slide .social,
   .about .social{
     float:left;
@@ -211,6 +235,7 @@ body {
 
 
   .end-slide,
+  .social-main,
   .about{
     .social.facebook{
       width:32px;
@@ -242,10 +267,15 @@ body {
       background:url(../../images/social_05.jpg) no-repeat;
     }
   }
-
+  .social-main{
+    width: 226px;
+    margin:0 auto;
+    top: 6px;
+    position:relative;
+  }
   .end-slide{
     width: 226px;
-    margin: 50% auto 0 auto;
+    margin: 75% auto 0 auto;
   }
 }
 

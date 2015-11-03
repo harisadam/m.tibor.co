@@ -4,6 +4,7 @@ $('div.slides').slick({
   swipe: true,
   slidesToShow: 1,
   arrows: false,
+  speed: 1000,
   slidesToScroll: 1,
   infinite: true,
   fade: true
@@ -14,16 +15,17 @@ $('div.slides').on('beforeChange', function(event, slick, currentSlide, nextSlid
 
   $('body').css('background-color', $(selector).attr('data-background'));
 
-  $('.logo a img').fadeOut('fast', function(){
-    $('.logo a img').attr('src', "images/titles/" + nextSlide + ".png").fadeIn('fast');
+  $('.logo a img').fadeOut(0, function(){
+
   });
+  $('.logo a img').attr('src', "images/titles/" + nextSlide + ".png").fadeIn(0);
 });
 
 
 $('div.slides').on('beforeChange', function(event, slick, currentSlideIndex, nextSlideIndex) {
   $currentSlide = $(slick.$slides[currentSlideIndex]);
   $nextSlide = $(slick.$slides[nextSlideIndex]);
-  
+
   $currentImage = $currentSlide.find('.image-to-slide');
   $nextImage = $nextSlide.find('.image-to-slide');
 
