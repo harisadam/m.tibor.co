@@ -57,15 +57,23 @@ body {
 
 /* line 76, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .image img {
-  width: 85%; }
-/* line 81, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+  width: 100%; }
+/* line 82, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.item .image-big img {
+  width: 75%;
+  margin: 0 auto; }
+/* line 89, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.item .image-big2 img {
+  width: 85%;
+  margin: 0 auto; }
+/* line 95, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item h2 {
   font-family: hvoguenormal;
   font-size: 12px;
   text-align: left;
   text-transform: uppercase;
-  margin: 55px 0 5px 0; }
-/* line 89, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+  margin: 65px 0 5px 0; }
+/* line 103, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item h3 {
   font-family: hvoguebold;
   font-weight: bold;
@@ -74,25 +82,32 @@ body {
   text-transform: uppercase;
   margin: 5px 0 9px 0;
   line-height: 13px; }
-/* line 99, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 113, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item h3 span {
   font-family: hvoguenormal;
   font-weight: normal;
-  font-size: 13px;
+  font-size: 11px;
   text-align: left;
   text-transform: uppercase;
   margin-bottom: 9px; }
-/* line 108, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 122, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item p {
   font-family: hvoguenormal;
-  font-size: 11px;
+  font-size: 10px;
   line-height: 12px;
-  text-align: left; }
-/* line 115, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+  text-align: left;
+  margin-top: 10px; }
+/* line 130, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.item p.open {
+  line-height: 17px; }
+/* line 134, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item p.note {
   position: absolute;
-  bottom: 1%; }
-/* line 120, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+  bottom: 1%;
+  font-size: 9px;
+  font-style: italic;
+  margin: 0 !important; }
+/* line 142, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .more {
   width: 91px;
   height: 34px;
@@ -100,102 +115,137 @@ body {
   display: block;
   margin: 20px auto !important;
   background-size: cover !important; }
-/* line 129, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 151, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .more.animal {
   background: url(/images/buttons/more_animal.jpg) no-repeat; }
-/* line 133, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 155, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .animal {
   color: #c494f1; }
-/* line 137, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 159, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .tibi {
   color: #2d88df; }
-/* line 141, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 163, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .cat {
   color: #fff8e0; }
-/* line 145, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 167, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .opel {
   color: #dedee4; }
-/* line 149, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 171, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .ludas {
   color: #e3ffef; }
-/* line 153, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 175, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .einstein {
   color: #ffe793; }
-/* line 157, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 179, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .opel2 {
   color: #d5e5f2; }
-/* line 161, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 183, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .space {
   color: #8b7ed7; }
-/* line 165, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 187, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .ciroka {
   color: #ffdae2; }
-/* line 169, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 191, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .danone {
   color: #b9b9b9; }
-/* line 173, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 195, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .stamp {
   color: #41ceef; }
-/* line 177, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 199, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .profile-pic {
   width: 13%;
   margin-right: 2%;
   float: left;
-  margin-top: 55px; }
-  /* line 183, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+  margin-top: 65px; }
+  /* line 205, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
   .item .profile-pic img {
     width: 100%; }
-/* line 188, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 210, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .about {
   width: 83%;
   float: left;
-  margin-top: 55px; }
-/* line 194, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+  margin-top: 65px; }
+/* line 216, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .about p {
-  font-size: 15px; }
-/* line 198, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+  font-size: 13px;
+  line-height: 14px; }
+/* line 221, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .about p.hello {
   margin: 15px 0;
   font-size: 15px;
   font-family: 'hvoguebold'; }
-/* line 204, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 227, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.item .social-main .social,
 .item .end-slide .social,
 .item .about .social {
   float: left;
   display: block;
   margin: -4px 0 0 0;
   background-size: cover !important; }
-/* line 215, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 240, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .end-slide .social.facebook,
+.item .social-main .social.facebook,
 .item .about .social.facebook {
   width: 32px;
   height: 35px;
   background: url(../../images/social_04.jpg) no-repeat; }
-/* line 221, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 246, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .end-slide .social.behance,
+.item .social-main .social.behance,
 .item .about .social.behance {
   width: 55px;
   height: 35px;
   background: url(../../images/social_01.jpg) no-repeat; }
-/* line 227, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 252, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .end-slide .social.dribbble,
+.item .social-main .social.dribbble,
 .item .about .social.dribbble {
   width: 42px;
   height: 35px;
   background: url(../../images/social_02.jpg) no-repeat; }
-/* line 233, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 258, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .end-slide .social.linkedin,
+.item .social-main .social.linkedin,
 .item .about .social.linkedin {
   width: 43px;
   height: 35px;
   background: url(../../images/social_03.jpg) no-repeat; }
-/* line 239, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 264, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .end-slide .social.instagram,
+.item .social-main .social.instagram,
 .item .about .social.instagram {
   width: 53px;
   height: 35px;
   background: url(../../images/social_05.jpg) no-repeat; }
-/* line 246, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+/* line 270, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.item .social-main {
+  width: 226px;
+  margin: 0 auto;
+  top: 6px;
+  position: relative; }
+/* line 276, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
 .item .end-slide {
   width: 226px;
-  margin: 50% auto 0 auto; }
+  margin: 75% auto 0 auto; }
+/* line 281, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.item .help-open {
+  width: 80%;
+  top: 40px;
+  position: relative;
+  margin: 0 auto; }
+
+/* line 290, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.animated {
+  transition: all .35s; }
+
+/* line 294, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.move-to-right {
+  transform: translateX(500px); }
+
+/* line 298, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.move-to-left {
+  transform: translateX(-500px); }
+
+/* line 302, /Users/adam/Projects/ruby/m.tibor.co/source/stylesheets/all.css.scss */
+.move-to-default {
+  transform: translateX(0) !important; }
