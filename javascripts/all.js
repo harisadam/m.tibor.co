@@ -79,3 +79,27 @@ $('div.slides').on('beforeChange', function(event, slick, currentSlideIndex, nex
     $currentImage.removeClass('move-to-default move-to-left').addClass('animated move-to-right');
   }
 });
+
+function doOnOrientationChange()
+{
+  switch(window.orientation)
+  {
+    case -90:
+    case 90:
+      alert("Please use the portrait orientation mode!");
+      break;
+    default:
+      break;
+  }
+}
+
+window.addEventListener('orientationchange', doOnOrientationChange);
+
+// Initial execution if needed
+doOnOrientationChange();
+
+
+if (screen.height < screen.width){
+  alert("Please use the portrait orientation mode!");
+}
+;
