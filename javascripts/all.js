@@ -34,7 +34,6 @@ $('div.slides').slick({
   swipe: true,
   arrows: false,
   speed: 1000,
-  slidesToScroll: 1,
   swipeToSlide: true,
   infinite: true,
   fade: true
