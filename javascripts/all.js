@@ -32,10 +32,10 @@
 
 $('div.slides').slick({
   swipe: true,
-  slidesToShow: 1,
   arrows: false,
   speed: 1000,
   slidesToScroll: 1,
+  swipeToSlide: true,
   infinite: true,
   fade: true
 });
